@@ -1,0 +1,11 @@
+<label class="lblregister"> Register</label>
+<label>Enter Your Name</label>
+<input  #name  type="text">
+<b>
+<label>Email</label>
+<input #email type="text">
+<b>
+<label>Address</label>
+<input #address type="text">
+
+<button (click)="register(name.value,email.value,address.value)">Register</button>
