@@ -10,6 +10,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatrialComponent } from './matrial/matrial.component';
 import { MatrialDemoComponent } from './matrial-demo/matrial-demo.component';
 import {MatButtonModule} from '@angular/material/button';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { BanerComponent } from './baner/baner.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { FoodGaleryComponent } from './food-galery/food-galery.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +24,14 @@ import {MatButtonModule} from '@angular/material/button';
     RegisterComponent,
     BootstarpComponent,
     MatrialComponent,
-    MatrialDemoComponent
+    MatrialDemoComponent,
+    HeaderComponent,
+    HomeComponent,
+    AboutComponent,
+    NotFoundComponent,
+    BanerComponent,
+    GalleryComponent,
+    FoodGaleryComponent
   ],
   imports: [
     BrowserModule,
